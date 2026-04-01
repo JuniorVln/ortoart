@@ -77,7 +77,7 @@ const specialties = [
       "Suporte especializado em sala",
     ],
     bgImage: "/areas/medicina-bg.jpg",
-    frameImage: "/areas/medicina-frame.jpg",
+    frameImage: "/Images/Medicina%20esportiva.png",
     badge: "02",
   },
 ];
@@ -176,7 +176,9 @@ export default function HomePageSections() {
                   href="/coluna"
                   className="group relative inline-flex h-[52px] items-center overflow-hidden rounded-full bg-[#87CEEB] pl-5 pr-[52px] text-sm font-semibold text-[#080f1e] transition-colors duration-300 hover:bg-[#a8ddf2] hover:shadow-[0_8px_28px_rgba(135,206,235,0.38)]"
                 >
-                  <span className="relative z-[1] whitespace-nowrap">Conheça nossos produtos</span>
+                  <span className="relative z-[1] whitespace-nowrap transition-transform duration-[420ms] ease-in-out group-hover:translate-x-8 motion-reduce:transform-none">
+                    Conheça nossos produtos
+                  </span>
                   <span className="absolute left-[calc(100%-44px)] top-1/2 z-[2] flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-white transition-[left] duration-[420ms] ease-in-out group-hover:left-2">
                     <ArrowRight size={15} className="shrink-0 text-[#080f1e]" strokeWidth={2.5} />
                   </span>
