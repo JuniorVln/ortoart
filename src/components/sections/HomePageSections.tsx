@@ -95,7 +95,7 @@ export default function HomePageSections() {
       <section className="sticky top-0 z-[1] min-h-screen overflow-hidden bg-[#080f1e] text-white">
         {/* Background image */}
         <Image
-          src="/Images/image.png"
+          src="/Images/Hero%20background.png"
           alt=""
           fill
           priority
