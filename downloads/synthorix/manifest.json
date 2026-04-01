@@ -1,0 +1,1245 @@
+{
+  "generatedAt": "2026-04-01T13:23:13.861Z",
+  "sourceSite": "https://synthorix.framer.website/",
+  "pages": [
+    {
+      "url": "https://synthorix.framer.website/",
+      "localPath": "downloads\\synthorix\\pages\\index.html",
+      "pageLinks": 11,
+      "assetLinks": 189
+    },
+    {
+      "url": "https://synthorix.framer.website/terms-and-condition",
+      "localPath": "downloads\\synthorix\\pages\\terms-and-condition.html",
+      "pageLinks": 12,
+      "assetLinks": 98
+    },
+    {
+      "url": "https://synthorix.framer.website/404",
+      "localPath": "downloads\\synthorix\\pages\\404.html",
+      "pageLinks": 12,
+      "assetLinks": 94
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://framerusercontent.com/images/qlL03BvHKFkAU8l2AgVCCAr0U.png?width=377&height=410",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\qlL03BvHKFkAU8l2AgVCCAr0U__q_b26dc84e1c.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/wuIvDlfUmGT6cF04yxDKivCTT9M.svg?width=88&height=104",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\wuIvDlfUmGT6cF04yxDKivCTT9M__q_2d951adcff.svg",
+      "contentType": "image/svg+xml",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/lxW9DDbhqUGGCCNK26yVzS3Mbg.svg?width=105&height=104",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\lxW9DDbhqUGGCCNK26yVzS3Mbg__q_36802afd19.svg",
+      "contentType": "image/svg+xml",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/92NhjrWa1rwyYyXyb6XSz8RrhKI.svg?width=94&height=104",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\92NhjrWa1rwyYyXyb6XSz8RrhKI__q_eac0f91452.svg",
+      "contentType": "image/svg+xml",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/Jhvldryn2lawn8QXYvxUStRMIK8.png",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\Jhvldryn2lawn8QXYvxUStRMIK8.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/IPXJY8XD70kr3uKRe1QqT3Sp3I.png?width=241&height=216",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\IPXJY8XD70kr3uKRe1QqT3Sp3I__q_ff980f8931.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/5DV6c8sILTXx0TSWFEAe03oGk.png?width=518&height=444",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\5DV6c8sILTXx0TSWFEAe03oGk__q_2f176f550d.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/SdvDNIau7J6AKbLda2fuHYFBlWA.svg?width=105&height=104",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\SdvDNIau7J6AKbLda2fuHYFBlWA__q_36802afd19.svg",
+      "contentType": "image/svg+xml",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/fHbN8cf93sUqOG3FBQguK90PU.jpg?width=1240&height=801",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\fHbN8cf93sUqOG3FBQguK90PU__q_66994ec642.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/uskhw5n5ZCDLsPfOeZhXMRaQ8SE.webp?scale-down-to=512&width=2048&height=2048",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\uskhw5n5ZCDLsPfOeZhXMRaQ8SE__q_a89a47fc3b.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/script_main.4XMAzhxA.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\script_main.4XMAzhxA.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/5DV6c8sILTXx0TSWFEAe03oGk.png?scale-down-to=512&width=518&height=444",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\5DV6c8sILTXx0TSWFEAe03oGk__q_a552dcf2c7.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/szgNEhC4Sb5Pf04DC384O76Et0.png",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\szgNEhC4Sb5Pf04DC384O76Et0.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://events.framer.com/script?v=2",
+      "localPath": "downloads\\synthorix\\assets\\events.framer.com\\script__q_64e8aa2774.js",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/augiA20Il.1VtDuJ4d.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\augiA20Il.1VtDuJ4d.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/tGgOjgWFUMsLSpoQ5eM52DlORs.webp?scale-down-to=512&width=1440&height=1351",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\tGgOjgWFUMsLSpoQ5eM52DlORs__q_f867cc15fb.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/qyUOjVDbWCJniwxzK0BWU1DJw.jpg",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\qyUOjVDbWCJniwxzK0BWU1DJw.jpg",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/B2bGgXxPeD8S3WpMLvv8CS3gGF0.webp?scale-down-to=512&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\B2bGgXxPeD8S3WpMLvv8CS3gGF0__q_7dd7581bfe.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/BnZZCWEqeAcrHIPFotFjeZcI.png?width=380&height=285",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\BnZZCWEqeAcrHIPFotFjeZcI__q_4ba9927bcb.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/RURiDyH7TaSIPvGgRmDSCfhW9I.webp?scale-down-to=512&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\RURiDyH7TaSIPvGgRmDSCfhW9I__q_7dd7581bfe.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/CS0tW8PrP5Ul1E5uTNykQpiw.png?scale-down-to=512&width=1000&height=562",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\CS0tW8PrP5Ul1E5uTNykQpiw__q_dcce812359.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/wyWjn6TzOi1bcaCx79XjG6y6Gbw.webp",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\wyWjn6TzOi1bcaCx79XjG6y6Gbw.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/Bd4hmSMVgZbqdcq1hSsPX6npPLs.webp?scale-down-to=512&width=2912&height=1632",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\Bd4hmSMVgZbqdcq1hSsPX6npPLs__q_e8fa47f496.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/nu8BcpByFpws4egTCclvW9fhn40.webp?width=1120&height=800",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\nu8BcpByFpws4egTCclvW9fhn40__q_0f723695ff.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/CCBp2Skem2b1C4pXF0NGv6ORdcE.png",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\CCBp2Skem2b1C4pXF0NGv6ORdcE.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/t8GGx4luJ00CYQDQcMP2rrpXzHQ.jpg",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\t8GGx4luJ00CYQDQcMP2rrpXzHQ.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/WSkaIMNQUFmra3fXGYGdiYUMNw.jpg?width=516&height=756",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\WSkaIMNQUFmra3fXGYGdiYUMNw__q_926e0087ef.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/2cQPAOFXqOxJrYANVneNVgcKI.png?width=455&height=479",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\2cQPAOFXqOxJrYANVneNVgcKI__q_d1214ecfe2.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/tGgOjgWFUMsLSpoQ5eM52DlORs.webp?width=1440&height=1351",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\tGgOjgWFUMsLSpoQ5eM52DlORs__q_fc6366590d.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/Bd4hmSMVgZbqdcq1hSsPX6npPLs.webp?scale-down-to=1024&width=2912&height=1632",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\Bd4hmSMVgZbqdcq1hSsPX6npPLs__q_7985c9c098.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/RURiDyH7TaSIPvGgRmDSCfhW9I.webp?scale-down-to=2048&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\RURiDyH7TaSIPvGgRmDSCfhW9I__q_775c666cff.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/irPb18rEf5NLUswPgzPyAl8Pus.webp?scale-down-to=1024&width=2048&height=2048",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\irPb18rEf5NLUswPgzPyAl8Pus__q_56c98f0eca.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/5dYT43G24XOSZ1XlxkVlrpqkL0.png?width=1240&height=716",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\5dYT43G24XOSZ1XlxkVlrpqkL0__q_5d0711d8b6.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/tGgOjgWFUMsLSpoQ5eM52DlORs.webp?scale-down-to=1024&width=1440&height=1351",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\tGgOjgWFUMsLSpoQ5eM52DlORs__q_29b2f2f966.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/B2bGgXxPeD8S3WpMLvv8CS3gGF0.webp?scale-down-to=1024&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\B2bGgXxPeD8S3WpMLvv8CS3gGF0__q_8b98a7c935.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/nu8BcpByFpws4egTCclvW9fhn40.webp?scale-down-to=1024&width=1120&height=800",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\nu8BcpByFpws4egTCclvW9fhn40__q_a612d2c41f.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/nu8BcpByFpws4egTCclvW9fhn40.webp?scale-down-to=512&width=1120&height=800",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\nu8BcpByFpws4egTCclvW9fhn40__q_a27f316142.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/fHbN8cf93sUqOG3FBQguK90PU.jpg?scale-down-to=512&width=1240&height=801",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\fHbN8cf93sUqOG3FBQguK90PU__q_c7a0481218.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/5dYT43G24XOSZ1XlxkVlrpqkL0.png?scale-down-to=512&width=1240&height=716",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\5dYT43G24XOSZ1XlxkVlrpqkL0__q_2bbb7e1a58.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/Yy8FfEBRJlBRj36kyqEE7hRw.webp?scale-down-to=512&width=4096&height=4096",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\Yy8FfEBRJlBRj36kyqEE7hRw__q_bc76ebdd83.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/Yy8FfEBRJlBRj36kyqEE7hRw.webp?scale-down-to=1024&width=4096&height=4096",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\Yy8FfEBRJlBRj36kyqEE7hRw__q_379a5ce520.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/bzSkOUoDcDtElwTkeseDQIOBV8.jpg?scale-down-to=512&width=4328&height=2885",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\bzSkOUoDcDtElwTkeseDQIOBV8__q_b613d146ef.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/kIBiy2xM79Ac692vRBBeMc3YFw8.jpg?scale-down-to=512&width=5184&height=3456",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\kIBiy2xM79Ac692vRBBeMc3YFw8__q_554c7b1efa.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/wyWjn6TzOi1bcaCx79XjG6y6Gbw.webp?scale-down-to=512",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\wyWjn6TzOi1bcaCx79XjG6y6Gbw__q_585eabd389.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/RURiDyH7TaSIPvGgRmDSCfhW9I.webp?scale-down-to=1024&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\RURiDyH7TaSIPvGgRmDSCfhW9I__q_8b98a7c935.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/5dYT43G24XOSZ1XlxkVlrpqkL0.png?scale-down-to=1024&width=1240&height=716",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\5dYT43G24XOSZ1XlxkVlrpqkL0__q_1dfa9a401f.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/fHbN8cf93sUqOG3FBQguK90PU.jpg?scale-down-to=1024&width=1240&height=801",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\fHbN8cf93sUqOG3FBQguK90PU__q_6cba79c941.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/wyWjn6TzOi1bcaCx79XjG6y6Gbw.webp?scale-down-to=1024",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\wyWjn6TzOi1bcaCx79XjG6y6Gbw__q_d8696c1ac4.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\05KsVHGDmqXSBXM4yRZ65P8i0s.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/QdlMD1m8ntn0cxynaBT3FZ5FMU.jpg?scale-down-to=512&width=4416&height=2448",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\QdlMD1m8ntn0cxynaBT3FZ5FMU__q_7fdf6c14eb.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\vQyevYAyHtARFwPqUzQGpnDs.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/5HcVoGak8k5agFJSaKa4floXVu0.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\5HcVoGak8k5agFJSaKa4floXVu0.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/cugnVhSraaRyANCaUtI5FV17wk.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\cugnVhSraaRyANCaUtI5FV17wk.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/mkY5Sgyq51ik0AMrSBwhm9DJg.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\mkY5Sgyq51ik0AMrSBwhm9DJg.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/3ZmXbBKToJifDV9gwcifVd1tEY.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\3ZmXbBKToJifDV9gwcifVd1tEY.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/P2Bw01CtL0b9wqygO0sSVogWbo.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\P2Bw01CtL0b9wqygO0sSVogWbo.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/jn4BtSPLlS0NDp1KiFAtFKiiY0o.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\jn4BtSPLlS0NDp1KiFAtFKiiY0o.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/FNfhX3dt4ChuLJq2PwdlxHO7PU.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\FNfhX3dt4ChuLJq2PwdlxHO7PU.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/CfMzU8w2e7tHgF4T4rATMPuWosA.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\CfMzU8w2e7tHgF4T4rATMPuWosA.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\u6gJwDuwB143kpNK1T1MDKDWkMc.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/X5hj6qzcHUYv7h1390c8Rhm6550.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\X5hj6qzcHUYv7h1390c8Rhm6550.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\DXD0Q7LSl7HEvDzucnyLnGBHM.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\b6Y37FthZeALduNqHicBT6FutY.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/2A4Xx7CngadFGlVV4xrO06OBHY.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\2A4Xx7CngadFGlVV4xrO06OBHY.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/867QObYax8ANsfX4TGEVU9YiCM.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\867QObYax8ANsfX4TGEVU9YiCM.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\GIryZETIX4IFypco5pYZONKhJIo.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/QxmhnWTzLtyjIiZcfaLIJ8EFBXU.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\QxmhnWTzLtyjIiZcfaLIJ8EFBXU.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\1K3W8DizY3v4emK8Mb08YHxTbs.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/3G6GpilofO60afgSc2XIVjmLbEM.jpg?scale-down-to=512&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\3G6GpilofO60afgSc2XIVjmLbEM__q_7dd7581bfe.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/vvNSqIj42qeQ2bvCRBIWKHscrc.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\vvNSqIj42qeQ2bvCRBIWKHscrc.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/H89BbHkbHDzlxZzxi8uPzTsp90.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\H89BbHkbHDzlxZzxi8uPzTsp90.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/g0c8vEViiXNlKAgI4Ymmk3Ig.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\g0c8vEViiXNlKAgI4Ymmk3Ig.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\tUSCtfYVM1I1IchuyCwz9gDdQ.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\cdAe8hgZ1cMyLu9g005pAW3xMo.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/4HH4RITHYMRL7VREMN2WV2L6LQZKPRWE/ZWMGJ4LKTJ4NT5NKCHS5WLI6CRRRO2SE/OFRM3ATAEVJKZWGG6S4JN4P6SBPN2BLD.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\third-party-assets\\fontshare\\wf\\4HH4RITHYMRL7VREMN2WV2L6LQZKPRWE\\ZWMGJ4LKTJ4NT5NKCHS5WLI6CRRRO2SE\\OFRM3ATAEVJKZWGG6S4JN4P6SBPN2BLD.woff2",
+      "contentType": "application/octet-stream",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/NC2MP33RO4WQTSTEEAWBJLAEXNCNEQVF/7F4U3COKLHQH4WUH3AXPC7N4UELEWJQN/JMWNCAGBH3TLANIVQPVABVAVNV5QERTH.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\third-party-assets\\fontshare\\wf\\NC2MP33RO4WQTSTEEAWBJLAEXNCNEQVF\\7F4U3COKLHQH4WUH3AXPC7N4UELEWJQN\\JMWNCAGBH3TLANIVQPVABVAVNV5QERTH.woff2",
+      "contentType": "application/octet-stream",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/DOfvtmE1UplCq161m6Hj8CSQYg.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\DOfvtmE1UplCq161m6Hj8CSQYg.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/KNYMuBFFb.BNX1yqju.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\KNYMuBFFb.BNX1yqju.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/vFzuJY0c65av44uhEKB6vyjFMg.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\vFzuJY0c65av44uhEKB6vyjFMg.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\WZ367JPwf9bRW6LdTHN8rXgSjw.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/lwc4kbN6ZYDVOTrIfdfUkJ9eyw.jpg?scale-down-to=512&width=5824&height=3263",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\lwc4kbN6ZYDVOTrIfdfUkJ9eyw__q_feb68f1c4f.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/3oYS2jmdNh6OwfsxLIh449836A.png?scale-down-to=512&width=1456&height=816",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\3oYS2jmdNh6OwfsxLIh449836A__q_dae6d8cc48.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/CS0tW8PrP5Ul1E5uTNykQpiw.png?width=1000&height=562",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\CS0tW8PrP5Ul1E5uTNykQpiw__q_5ca03182b4.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/bzSkOUoDcDtElwTkeseDQIOBV8.jpg?scale-down-to=1024&width=4328&height=2885",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\bzSkOUoDcDtElwTkeseDQIOBV8__q_3bc90d4294.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/o9Tk4470Vh6rjD1BFPg139GG8.webp?scale-down-to=512&width=5824&height=3823",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\o9Tk4470Vh6rjD1BFPg139GG8__q_82a21eb389.webp",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/ZZGjUH3IT.CDqwbBHZ.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\ZZGjUH3IT.CDqwbBHZ.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\VgYFWiwsAC5OYxAycRXXvhze58.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/geist/v4/gyBhhwUxId8gMGYQMKR3pzfaWI_RQuQInpna-1Q.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\geist\\v4\\gyBhhwUxId8gMGYQMKR3pzfaWI_RQuQInpna-1Q.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_M-bnBeA.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\manrope\\v20\\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_M-bnBeA.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/JQL34MORONR7D7BXOVTX3KBGJGEJQ5BJ/CKUZVY5SFANCFAT7FS3MP6ZL4BMEWCJE/NOLRWF3JBJ434MILPG5RB6R2B4HGRSZB.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\third-party-assets\\fontshare\\wf\\JQL34MORONR7D7BXOVTX3KBGJGEJQ5BJ\\CKUZVY5SFANCFAT7FS3MP6ZL4BMEWCJE\\NOLRWF3JBJ434MILPG5RB6R2B4HGRSZB.woff2",
+      "contentType": "application/octet-stream",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/assets/tKtBcDnBMevsEEJKdNGhhkLzYo.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\assets\\tKtBcDnBMevsEEJKdNGhhkLzYo.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/qVo4gZnqZ.CxFSYrCL.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\qVo4gZnqZ.CxFSYrCL.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/Yy8FfEBRJlBRj36kyqEE7hRw.webp?scale-down-to=2048&width=4096&height=4096",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\Yy8FfEBRJlBRj36kyqEE7hRw__q_178b582e67.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/EOHGWBZYYKO6R4PWP4S2B3FFWHHBEZN6/UWQLMF4AFWLXCJQCFV3WRVYC77KZXPRB/FYG6OCH7XOLUUSZTIZE65ATBZWF623O4.woff2",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\third-party-assets\\fontshare\\wf\\EOHGWBZYYKO6R4PWP4S2B3FFWHHBEZN6\\UWQLMF4AFWLXCJQCFV3WRVYC77KZXPRB\\FYG6OCH7XOLUUSZTIZE65ATBZWF623O4.woff2",
+      "contentType": "application/octet-stream",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/5sXjrcrbMSCYaZyOCzyqwLQLzo3GHLkos1X5_nL1n-o.C2s1ALgN.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\5sXjrcrbMSCYaZyOCzyqwLQLzo3GHLkos1X5_nL1n-o.C2s1ALgN.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_B-bnBeA.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\manrope\\v20\\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_B-bnBeA.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_N-bnBeA.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\manrope\\v20\\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_N-bnBeA.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/geist/v4/gyBhhwUxId8gMGYQMKR3pzfaWI_RQuQImpna.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\geist\\v4\\gyBhhwUxId8gMGYQMKR3pzfaWI_RQuQImpna.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_C-bk.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\manrope\\v20\\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_C-bk.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/geist/v4/gyBhhwUxId8gMGYQMKR3pzfaWI_RQuQIlJna-1Q.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\geist\\v4\\gyBhhwUxId8gMGYQMKR3pzfaWI_RQuQIlJna-1Q.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiGyp8kv8JHgFVrJJLucHtA.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiGyp8kv8JHgFVrJJLucHtA.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiGyp8kv8JHgFVrJJLufntAKPY.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/QdlMD1m8ntn0cxynaBT3FZ5FMU.jpg?scale-down-to=1024&width=4416&height=2448",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\QdlMD1m8ntn0cxynaBT3FZ5FMU__q_7b8230de83.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/hRfXPaILeG8hkjSv51bzG47pWo.png?scale-down-to=512&width=1200&height=1053",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\hRfXPaILeG8hkjSv51bzG47pWo__q_8465713655.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLm81xVF9eO.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiDyp8kv8JHgFVrJJLm81xVF9eO.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/rolldown-runtime.CSVa3Jaz.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\rolldown-runtime.CSVa3Jaz.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLm81xVGdeOcEg.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiDyp8kv8JHgFVrJJLm81xVGdeOcEg.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_G-bnBeA.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\manrope\\v20\\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_G-bnBeA.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_P-bnBeA.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\manrope\\v20\\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_P-bnBeA.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/55Mkmx0L3jK9OxK5xIkJJ6UBvNd3NKcxLi_455BVr5Y.CTb0QxLT.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\55Mkmx0L3jK9OxK5xIkJJ6UBvNd3NKcxLi_455BVr5Y.CTb0QxLT.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/react.64T3hUvg.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\react.64T3hUvg.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/motion.9I9r9cvj.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\motion.9I9r9cvj.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/shared-lib.BdVNMR-0.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\shared-lib.BdVNMR-0.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/Ux64e-aZBcCqRRP-oq1pVdHvcgFSQ-GPH16mUxbRfEA.DtAXNXYi.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\Ux64e-aZBcCqRRP-oq1pVdHvcgFSQ-GPH16mUxbRfEA.DtAXNXYi.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/3G6GpilofO60afgSc2XIVjmLbEM.jpg?scale-down-to=1024&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\3G6GpilofO60afgSc2XIVjmLbEM__q_8b98a7c935.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/sites/2pB6wUkE8Qd5YQRlYyQQDt/framer.BvwVPvrK.mjs",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\sites\\2pB6wUkE8Qd5YQRlYyQQDt\\framer.BvwVPvrK.mjs",
+      "contentType": "text/javascript",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLm81xVFteOcEg.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiDyp8kv8JHgFVrJJLm81xVFteOcEg.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/Bd4hmSMVgZbqdcq1hSsPX6npPLs.webp?width=2912&height=1632",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\Bd4hmSMVgZbqdcq1hSsPX6npPLs__q_a26a1aaf48.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/irPb18rEf5NLUswPgzPyAl8Pus.webp?width=2048&height=2048",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\irPb18rEf5NLUswPgzPyAl8Pus__q_ec0c24b44c.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/irPb18rEf5NLUswPgzPyAl8Pus.webp?scale-down-to=512&width=2048&height=2048",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\irPb18rEf5NLUswPgzPyAl8Pus__q_a89a47fc3b.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/Bd4hmSMVgZbqdcq1hSsPX6npPLs.webp?scale-down-to=2048&width=2912&height=1632",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\Bd4hmSMVgZbqdcq1hSsPX6npPLs__q_d6d95326b5.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/lwc4kbN6ZYDVOTrIfdfUkJ9eyw.jpg?scale-down-to=1024&width=5824&height=3263",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\lwc4kbN6ZYDVOTrIfdfUkJ9eyw__q_298c03d403.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2",
+      "localPath": "downloads\\synthorix\\assets\\fonts.gstatic.com\\s\\poppins\\v24\\pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2",
+      "contentType": "font/woff2",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/cxUP8GnRva6GlQy4KjTiQC2kpQ.png?scale-down-to=1024&width=1272&height=2332",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\cxUP8GnRva6GlQy4KjTiQC2kpQ__q_578a37686f.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/uskhw5n5ZCDLsPfOeZhXMRaQ8SE.webp?scale-down-to=1024&width=2048&height=2048",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\uskhw5n5ZCDLsPfOeZhXMRaQ8SE__q_56c98f0eca.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/NAHQeAiwfEN4CaojaI8QwRg95aE.jpg?scale-down-to=1024&width=3648&height=5472",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\NAHQeAiwfEN4CaojaI8QwRg95aE__q_1bd6502f0f.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/iABb6ejla3A5ZzE4zgxiPqBaYHI.jpg?scale-down-to=1024&width=3000&height=4499",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\iABb6ejla3A5ZzE4zgxiPqBaYHI__q_e95f21c04c.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/RURiDyH7TaSIPvGgRmDSCfhW9I.webp?scale-down-to=4096&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\RURiDyH7TaSIPvGgRmDSCfhW9I__q_35853eb41d.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/Yy8FfEBRJlBRj36kyqEE7hRw.webp?width=4096&height=4096",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\Yy8FfEBRJlBRj36kyqEE7hRw__q_b9bbdcbf89.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/42VzMJG1qDU6MuCMAGmUQamm0.jpg?scale-down-to=1024&width=4160&height=5699",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\42VzMJG1qDU6MuCMAGmUQamm0__q_0f93283c56.jpg",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/eOPCJVKemA1P1GEfmmlJ2YP8DxE.jpg?scale-down-to=1024&width=4160&height=5407",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\eOPCJVKemA1P1GEfmmlJ2YP8DxE__q_f8abd02ea3.jpg",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/B2bGgXxPeD8S3WpMLvv8CS3gGF0.webp?scale-down-to=2048&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\B2bGgXxPeD8S3WpMLvv8CS3gGF0__q_775c666cff.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/hRfXPaILeG8hkjSv51bzG47pWo.png?width=1200&height=1053",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\hRfXPaILeG8hkjSv51bzG47pWo__q_546853dbd5.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/3oYS2jmdNh6OwfsxLIh449836A.png?scale-down-to=1024&width=1456&height=816",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\3oYS2jmdNh6OwfsxLIh449836A__q_0207ce8e14.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/o9Tk4470Vh6rjD1BFPg139GG8.webp?scale-down-to=1024&width=5824&height=3823",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\o9Tk4470Vh6rjD1BFPg139GG8__q_0a5b7e8c3b.webp",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/kIBiy2xM79Ac692vRBBeMc3YFw8.jpg?scale-down-to=2048&width=5184&height=3456",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\kIBiy2xM79Ac692vRBBeMc3YFw8__q_12d2f631b4.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/Agu4FhVAnrLNEz9X07B9kg4JhSo.png",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\Agu4FhVAnrLNEz9X07B9kg4JhSo.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/RURiDyH7TaSIPvGgRmDSCfhW9I.webp?width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\RURiDyH7TaSIPvGgRmDSCfhW9I__q_d95b90eed1.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/3G6GpilofO60afgSc2XIVjmLbEM.jpg?scale-down-to=2048&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\3G6GpilofO60afgSc2XIVjmLbEM__q_775c666cff.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/QdlMD1m8ntn0cxynaBT3FZ5FMU.jpg?scale-down-to=2048&width=4416&height=2448",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\QdlMD1m8ntn0cxynaBT3FZ5FMU__q_bb14d23a91.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/u18dGKartHPUQoLF64NBrpgaL8.jpg",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\u18dGKartHPUQoLF64NBrpgaL8.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/lwc4kbN6ZYDVOTrIfdfUkJ9eyw.jpg?scale-down-to=2048&width=5824&height=3263",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\lwc4kbN6ZYDVOTrIfdfUkJ9eyw__q_4afa5e826f.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/kIBiy2xM79Ac692vRBBeMc3YFw8.jpg?scale-down-to=1024&width=5184&height=3456",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\kIBiy2xM79Ac692vRBBeMc3YFw8__q_1a96f0fbf7.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/hRfXPaILeG8hkjSv51bzG47pWo.png?scale-down-to=1024&width=1200&height=1053",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\hRfXPaILeG8hkjSv51bzG47pWo__q_6c2295a1f5.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/uskhw5n5ZCDLsPfOeZhXMRaQ8SE.webp?width=2048&height=2048",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\uskhw5n5ZCDLsPfOeZhXMRaQ8SE__q_ec0c24b44c.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/cxUP8GnRva6GlQy4KjTiQC2kpQ.png?scale-down-to=2048&width=1272&height=2332",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\cxUP8GnRva6GlQy4KjTiQC2kpQ__q_d8424b22f7.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/lwc4kbN6ZYDVOTrIfdfUkJ9eyw.jpg?scale-down-to=4096&width=5824&height=3263",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\lwc4kbN6ZYDVOTrIfdfUkJ9eyw__q_de6afa312b.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/eOPCJVKemA1P1GEfmmlJ2YP8DxE.jpg?scale-down-to=2048&width=4160&height=5407",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\eOPCJVKemA1P1GEfmmlJ2YP8DxE__q_7b3dca6abe.jpg",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/3oYS2jmdNh6OwfsxLIh449836A.png?width=1456&height=816",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\3oYS2jmdNh6OwfsxLIh449836A__q_caa0a6ead4.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/NAHQeAiwfEN4CaojaI8QwRg95aE.jpg?scale-down-to=2048&width=3648&height=5472",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\NAHQeAiwfEN4CaojaI8QwRg95aE__q_3ae479b0d8.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/B2bGgXxPeD8S3WpMLvv8CS3gGF0.webp?scale-down-to=4096&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\B2bGgXxPeD8S3WpMLvv8CS3gGF0__q_35853eb41d.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/cxUP8GnRva6GlQy4KjTiQC2kpQ.png?width=1272&height=2332",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\cxUP8GnRva6GlQy4KjTiQC2kpQ__q_5d9fa3a867.png",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/bzSkOUoDcDtElwTkeseDQIOBV8.jpg?scale-down-to=2048&width=4328&height=2885",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\bzSkOUoDcDtElwTkeseDQIOBV8__q_3f127a71e9.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/42VzMJG1qDU6MuCMAGmUQamm0.jpg?scale-down-to=2048&width=4160&height=5699",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\42VzMJG1qDU6MuCMAGmUQamm0__q_902c284c85.jpg",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/QdlMD1m8ntn0cxynaBT3FZ5FMU.jpg?width=4416&height=2448",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\QdlMD1m8ntn0cxynaBT3FZ5FMU__q_039af4d91b.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/iABb6ejla3A5ZzE4zgxiPqBaYHI.jpg?scale-down-to=2048&width=3000&height=4499",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\iABb6ejla3A5ZzE4zgxiPqBaYHI__q_4fd9ca89bd.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/kIBiy2xM79Ac692vRBBeMc3YFw8.jpg?width=5184&height=3456",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\kIBiy2xM79Ac692vRBBeMc3YFw8__q_e454c3086f.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/QdlMD1m8ntn0cxynaBT3FZ5FMU.jpg?scale-down-to=4096&width=4416&height=2448",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\QdlMD1m8ntn0cxynaBT3FZ5FMU__q_1d7f910647.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/B2bGgXxPeD8S3WpMLvv8CS3gGF0.webp?width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\B2bGgXxPeD8S3WpMLvv8CS3gGF0__q_d95b90eed1.webp",
+      "contentType": "image/webp",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/BDUoWI17rzZdYmmOsEKp6NrwBmc.jpg",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\BDUoWI17rzZdYmmOsEKp6NrwBmc.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/3G6GpilofO60afgSc2XIVjmLbEM.jpg?scale-down-to=4096&width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\3G6GpilofO60afgSc2XIVjmLbEM__q_35853eb41d.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/bzSkOUoDcDtElwTkeseDQIOBV8.jpg?width=4328&height=2885",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\bzSkOUoDcDtElwTkeseDQIOBV8__q_b6b75b9112.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/o9Tk4470Vh6rjD1BFPg139GG8.webp?scale-down-to=2048&width=5824&height=3823",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\o9Tk4470Vh6rjD1BFPg139GG8__q_9aa7162371.webp",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/kIBiy2xM79Ac692vRBBeMc3YFw8.jpg?scale-down-to=4096&width=5184&height=3456",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\kIBiy2xM79Ac692vRBBeMc3YFw8__q_c1156e1b6a.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/NAHQeAiwfEN4CaojaI8QwRg95aE.jpg?width=3648&height=5472",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\NAHQeAiwfEN4CaojaI8QwRg95aE__q_3d192f7a1d.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/NAHQeAiwfEN4CaojaI8QwRg95aE.jpg?scale-down-to=4096&width=3648&height=5472",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\NAHQeAiwfEN4CaojaI8QwRg95aE__q_89a4cb269b.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/lwc4kbN6ZYDVOTrIfdfUkJ9eyw.jpg?width=5824&height=3263",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\lwc4kbN6ZYDVOTrIfdfUkJ9eyw__q_b4a0a9839f.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/eOPCJVKemA1P1GEfmmlJ2YP8DxE.jpg?width=4160&height=5407",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\eOPCJVKemA1P1GEfmmlJ2YP8DxE__q_e2a9e65d26.jpg",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/bzSkOUoDcDtElwTkeseDQIOBV8.jpg?scale-down-to=4096&width=4328&height=2885",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\bzSkOUoDcDtElwTkeseDQIOBV8__q_fc8cf0a0d2.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/42VzMJG1qDU6MuCMAGmUQamm0.jpg?scale-down-to=4096&width=4160&height=5699",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\42VzMJG1qDU6MuCMAGmUQamm0__q_7da5fcfce0.jpg",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/eOPCJVKemA1P1GEfmmlJ2YP8DxE.jpg?scale-down-to=4096&width=4160&height=5407",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\eOPCJVKemA1P1GEfmmlJ2YP8DxE__q_bf3b24e582.jpg",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/3G6GpilofO60afgSc2XIVjmLbEM.jpg?width=5824&height=3264",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\3G6GpilofO60afgSc2XIVjmLbEM__q_d95b90eed1.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/42VzMJG1qDU6MuCMAGmUQamm0.jpg?width=4160&height=5699",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\42VzMJG1qDU6MuCMAGmUQamm0__q_1243f0bdfa.jpg",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/iABb6ejla3A5ZzE4zgxiPqBaYHI.jpg?scale-down-to=4096&width=3000&height=4499",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\iABb6ejla3A5ZzE4zgxiPqBaYHI__q_fcdec43284.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/iABb6ejla3A5ZzE4zgxiPqBaYHI.jpg?width=3000&height=4499",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\iABb6ejla3A5ZzE4zgxiPqBaYHI__q_8548a62b3a.jpg",
+      "contentType": "image/jpeg",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/o9Tk4470Vh6rjD1BFPg139GG8.webp?width=5824&height=3823",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\o9Tk4470Vh6rjD1BFPg139GG8__q_3ad2c7350b.webp",
+      "contentType": "image/png",
+      "error": null
+    },
+    {
+      "url": "https://framerusercontent.com/images/o9Tk4470Vh6rjD1BFPg139GG8.webp?scale-down-to=4096&width=5824&height=3823",
+      "localPath": "downloads\\synthorix\\assets\\framerusercontent.com\\images\\o9Tk4470Vh6rjD1BFPg139GG8__q_47d3a6d86d.webp",
+      "contentType": "image/png",
+      "error": null
+    }
+  ],
+  "failures": []
+}

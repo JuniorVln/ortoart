@@ -1,0 +1,8 @@
+{
+  "name": "apify-synthorix-download",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  }
+}

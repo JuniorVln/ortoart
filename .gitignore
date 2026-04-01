@@ -23,6 +23,11 @@
 # misc
 .DS_Store
 *.pem
+.claude/
+.firecrawl/
+.playwright-mcp/
+.qwen/
+.vscode/
 
 # debug
 npm-debug.log*

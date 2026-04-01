@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OrtoArt
 
-## Getting Started
+Site institucional da OrtoArt Materiais Cirurgicos Ltda. em Next.js 16 com React 19.
 
-First, run the development server:
+## Estrutura
+
+- `src/`: aplicacao principal do site da OrtoArt
+- `downloads/synthorix/`: mirror local do site de referencia usado como base visual e estrutural
+- `planejamento/`: escopo e estrutura das paginas
+- `old/`: conteudo extraido do site antigo para migracao
+- `Branding/`: materiais de marca
+- `tools/`: scripts de apoio, incluindo o gerador do mirror
+
+## Comandos
+
+Execute tudo a partir da raiz do projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O app sobe em `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Referencia clonada
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Para visualizar o mirror estatico do site-base localmente:
 
-## Learn More
+```bash
+python -m http.server 4173 --bind 127.0.0.1 --directory downloads/synthorix
+```
 
-To learn more about Next.js, take a look at the following resources:
+Depois abra:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`http://127.0.0.1:4173/pages/index.html`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Observacoes
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- O app Next.js agora vive na raiz do repositorio; a pasta `site/` foi removida da estrutura ativa.
+- O mirror baixado fica separado em `downloads/synthorix` para servir como referencia durante a implementacao.
