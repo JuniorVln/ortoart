@@ -1,15 +1,10 @@
 import Link from "next/link";
-
-// TODO: substituir pelo número real do WhatsApp
-const WHATSAPP_NUMBER = "5541999999999";
-const WHATSAPP_MESSAGE = "Olá! Vim pelo site e gostaria de saber mais sobre os materiais da OrtoArt.";
+import { whatsappUrl } from "@/lib/contact";
 
 export default function WhatsAppButton() {
-  const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
-
   return (
     <Link
-      href={url}
+      href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chamar no WhatsApp"

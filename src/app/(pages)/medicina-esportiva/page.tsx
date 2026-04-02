@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SportsMedicinePageSections from "@/components/sections/SportsMedicinePageSections";
 
 export const metadata: Metadata = {
   title: "Medicina Esportiva",
@@ -7,16 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function MedicinaEsportivaPage() {
-  return (
-    <>
-      {/* TODO: Hero da área */}
-      {/* TODO: Introdução */}
-      {/* TODO: Produtos e Soluções */}
-      {/* TODO: Diferencial */}
-      {/* TODO: CTA Orçamento */}
-      <div className="min-h-screen flex items-center justify-center text-[#0D1F3C]">
-        <p className="text-lg font-semibold">Medicina Esportiva — em construção</p>
-      </div>
-    </>
-  );
+  return <SportsMedicinePageSections />;
 }

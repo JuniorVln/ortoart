@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PartnersPageSections from "@/components/sections/PartnersPageSections";
 
 export const metadata: Metadata = {
   title: "Parceiros e Fabricantes",
@@ -7,15 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function ParceirosPage() {
-  return (
-    <>
-      {/* TODO: Headline */}
-      {/* TODO: Texto de posicionamento */}
-      {/* TODO: Grade de parceiros com logos */}
-      {/* TODO: CTA */}
-      <div className="min-h-screen flex items-center justify-center text-[#0D1F3C]">
-        <p className="text-lg font-semibold">Parceiros — em construção</p>
-      </div>
-    </>
-  );
+  return <PartnersPageSections />;
 }

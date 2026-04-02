@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AboutPageSections from "@/components/sections/AboutPageSections";
 
 export const metadata: Metadata = {
   title: "Quem Somos",
@@ -7,17 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function QuemSomosPage() {
-  return (
-    <>
-      {/* TODO: Headline da página */}
-      {/* TODO: História pelo CEO */}
-      {/* TODO: Timeline */}
-      {/* TODO: Missão, Visão e Valores */}
-      {/* TODO: Nosso Time */}
-      {/* TODO: CTA */}
-      <div className="min-h-screen flex items-center justify-center text-[#0D1F3C]">
-        <p className="text-lg font-semibold">Quem Somos — em construção</p>
-      </div>
-    </>
-  );
+  return <AboutPageSections />;
 }

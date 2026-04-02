@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ContactPageSections from "@/components/sections/ContactPageSections";
 
 export const metadata: Metadata = {
   title: "Contato",
@@ -7,15 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function ContatoPage() {
-  return (
-    <>
-      {/* TODO: Headline */}
-      {/* TODO: Formulário + dados de contato */}
-      {/* TODO: Mapa Google Maps */}
-      {/* TODO: Botão WhatsApp em destaque */}
-      <div className="min-h-screen flex items-center justify-center text-[#0D1F3C]">
-        <p className="text-lg font-semibold">Contato — em construção</p>
-      </div>
-    </>
-  );
+  return <ContactPageSections />;
 }
