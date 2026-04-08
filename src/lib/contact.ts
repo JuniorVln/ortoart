@@ -13,7 +13,7 @@ export const contactInfo = {
   googleMapsEmbedUrl: `https://www.google.com/maps?q=${encodeURIComponent(MAP_DESTINATION)}&z=15&output=embed`,
   googleMapsDirectionsUrl: `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(MAP_DESTINATION)}`,
   // WhatsApp number inferred from the legacy OrtoArt CTAs. Confirm with the client.
-  whatsappNumber: "554199771088",
+  whatsappNumber: "554191044367",
   whatsappMessage:
     "Olá! Vim pelo site e gostaria de saber mais sobre os materiais da OrtoArt.",
 } as const;
