@@ -178,7 +178,7 @@ export default function SpinePageSections() {
               <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.06] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-[#87CEEB] backdrop-blur-sm">
                 Especialidade · Coluna
               </span>
-              <h1 className="mt-7 max-w-[10ch] text-[clamp(2.4rem,5vw,5rem)] font-bold leading-[0.98] tracking-[-0.05em]">
+              <h1 className="mt-7 max-w-[24ch] text-[clamp(2rem,4vw,3.5rem)] font-bold leading-[1.1] tracking-[-0.028em]">
                 Soluções completas para cirurgia de coluna.
               </h1>
               <p className="mt-6 max-w-[58ch] text-base leading-8 text-white/62 sm:text-lg">
@@ -272,7 +272,7 @@ export default function SpinePageSections() {
               <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#4B8AB0]">
                 Atuação em coluna
               </span>
-              <h2 className="mt-4 max-w-[13ch] text-3xl font-bold tracking-tight text-[#0D1F3C] sm:text-4xl lg:text-[2.8rem] lg:leading-[1.08]">
+              <h2 className="mt-4 max-w-[22ch] text-3xl font-bold tracking-tight text-[#0D1F3C] sm:text-4xl lg:text-[2.8rem] lg:leading-[1.08]">
                 Experiência técnica organizada em torno do procedimento.
               </h2>
               <div className="mt-6 space-y-5 text-base leading-8 text-[#0D1F3C]/62">
@@ -295,7 +295,7 @@ export default function SpinePageSections() {
               </div>
             </div>
 
-            <div className="grid gap-5 sm:grid-cols-3">
+            <div className="grid gap-5">
               {spineDifferentials.map((item, index) => {
                 const Icon = item.icon;
 
@@ -399,7 +399,7 @@ export default function SpinePageSections() {
             <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#87CEEB]">
               Suporte em sala
             </span>
-            <h2 className="mt-4 max-w-[13ch] text-3xl font-bold tracking-tight sm:text-4xl lg:text-[2.8rem] lg:leading-[1.08]">
+            <h2 className="mt-4 max-w-[22ch] text-3xl font-bold tracking-tight sm:text-4xl lg:text-[2.8rem] lg:leading-[1.08]">
               Nossos instrumentadores acompanham cada procedimento.
             </h2>
             <p className="mt-6 max-w-[60ch] text-base leading-8 text-white/62">
@@ -408,7 +408,7 @@ export default function SpinePageSections() {
               instrumental e presença próxima da equipe durante toda a rotina.
             </p>
 
-            <div className="mt-10 grid gap-5 sm:grid-cols-3">
+            <div className="mt-10 grid gap-5">
               {supportPillars.map((item, index) => {
                 const Icon = item.icon;
 

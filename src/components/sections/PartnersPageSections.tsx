@@ -69,7 +69,7 @@ export default function PartnersPageSections() {
             <span className="hero-fade-up inline-flex items-center rounded-full border border-white/10 bg-white/[0.06] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-[#87CEEB] backdrop-blur-sm">
               Parceiros e fabricantes
             </span>
-            <h1 className="hero-fade-up mt-7 max-w-[12ch] text-[clamp(2.5rem,5vw,4.75rem)] font-bold leading-[1.02] tracking-[-0.04em] text-white">
+            <h1 className="hero-fade-up mt-7 max-w-[24ch] text-[clamp(2rem,4vw,3.5rem)] font-bold leading-[1.1] tracking-[-0.028em] text-white">
               Representamos o que há de mais moderno no mundo.
             </h1>
             <p className="hero-fade-up mt-6 max-w-[58ch] text-base leading-8 text-white/60 sm:text-lg">
@@ -99,46 +99,52 @@ export default function PartnersPageSections() {
       </section>
 
       <section className="bg-[#f4f7fb] py-24 sm:py-28">
-        <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20 lg:px-8">
-          <div data-reveal className="oa-reveal">
-            <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#4B8AB0]">
-              Posicionamento
-            </span>
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#0D1F3C] sm:text-4xl">
-              O elo entre a inovação global e a cirurgia feita com precisão no
-              Brasil.
-            </h2>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
+            <div data-reveal className="oa-reveal">
+              <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#4B8AB0]">
+                Posicionamento
+              </span>
+              <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#0D1F3C] sm:text-4xl">
+                O elo entre a inovação global e a cirurgia feita com precisão no
+                Brasil.
+              </h2>
+            </div>
+
+            <div
+              data-reveal
+              className="oa-reveal"
+              style={{ transitionDelay: "90ms" }}
+            >
+              <p className="text-base leading-8 text-[#0D1F3C]/60">
+                Mais do que distribuir marcas, a OrtoArt estrutura um ecossistema
+                de suporte para que médicos, hospitais e equipes tenham acesso a
+                soluções confiáveis, atualização constante e apoio técnico em cada
+                etapa do procedimento. Hoje, a representação exclusiva da
+                Orthofix reforça esse papel de curadoria e credibilidade.
+              </p>
+            </div>
           </div>
 
           <div
             data-reveal
-            className="oa-reveal"
-            style={{ transitionDelay: "90ms" }}
+            className="oa-reveal mt-10 grid gap-4 lg:grid-cols-3 lg:col-start-2"
+            style={{ transitionDelay: "150ms" }}
           >
-            <p className="text-base leading-8 text-[#0D1F3C]/60">
-              Mais do que distribuir marcas, a OrtoArt estrutura um ecossistema
-              de suporte para que médicos, hospitais e equipes tenham acesso a
-              soluções confiáveis, atualização constante e apoio técnico em cada
-              etapa do procedimento. Hoje, a representação exclusiva da
-              Orthofix reforça esse papel de curadoria e credibilidade.
-            </p>
-
-            <div className="mt-10 grid gap-4 sm:grid-cols-3">
-              {positioningPoints.map((point, index) => (
-                <div
-                  key={point.title}
-                  className="rounded-2xl border border-[#0D1F3C]/10 bg-white p-6 shadow-[0_14px_32px_rgba(13,31,60,0.05)]"
-                  style={{ transitionDelay: `${index * 80}ms` }}
-                >
-                  <p className="text-sm font-semibold text-[#0D1F3C]">
-                    {point.title}
-                  </p>
-                  <p className="mt-3 text-sm leading-7 text-[#0D1F3C]/56">
-                    {point.description}
-                  </p>
-                </div>
-              ))}
-            </div>
+            {positioningPoints.map((point, index) => (
+              <div
+                key={point.title}
+                className="rounded-2xl border border-[#0D1F3C]/10 bg-white p-6 shadow-[0_14px_32px_rgba(13,31,60,0.05)]"
+                style={{ transitionDelay: `${index * 80}ms` }}
+              >
+                <p className="text-sm font-semibold text-[#0D1F3C]">
+                  {point.title}
+                </p>
+                <p className="mt-3 text-sm leading-7 text-[#0D1F3C]/56">
+                  {point.description}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

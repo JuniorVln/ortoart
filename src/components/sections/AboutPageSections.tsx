@@ -165,7 +165,7 @@ export default function AboutPageSections() {
               <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.06] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-[#87CEEB] backdrop-blur-sm">
                 Quem Somos
               </span>
-              <h1 className="mt-7 max-w-[11ch] text-[clamp(2.4rem,5vw,5rem)] font-bold leading-[0.98] tracking-[-0.05em]">
+              <h1 className="mt-7 max-w-[24ch] text-[clamp(2rem,4vw,3.5rem)] font-bold leading-[1.1] tracking-[-0.028em]">
                 Mais de 15 anos levando precisão e cuidado aos cirurgiões.
               </h1>
               <p className="mt-6 max-w-[60ch] text-base leading-8 text-white/62 sm:text-lg">
@@ -259,14 +259,14 @@ export default function AboutPageSections() {
       </section>
 
       <section className="bg-[#f4f7fb] py-24 sm:py-28">
-        <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:items-center lg:gap-20 lg:px-8">
+        <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:items-stretch lg:gap-20 lg:px-8">
           <div
             data-reveal
-            className="oa-reveal relative overflow-hidden rounded-[2.4rem] bg-[#0D1F3C] p-2 shadow-[0_24px_70px_rgba(13,31,60,0.18)]"
+            className="oa-reveal relative flex h-full flex-col overflow-hidden rounded-[2.4rem] bg-[#0D1F3C] p-2 shadow-[0_24px_70px_rgba(13,31,60,0.18)]"
           >
-            <div className="relative min-h-[440px] overflow-hidden rounded-[1.9rem]">
+            <div className="relative min-h-[440px] grow overflow-hidden rounded-[1.9rem] lg:min-h-0">
               <Image
-                src="/Images/Nosso%20diferencial.png"
+                src="/Images/Quem somos.png"
                 alt="Equipe e suporte cirúrgico da OrtoArt"
                 fill
                 sizes="(min-width: 1024px) 42vw, 100vw"
@@ -296,7 +296,7 @@ export default function AboutPageSections() {
             <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#4B8AB0]">
               História da empresa
             </span>
-            <h2 className="mt-4 max-w-[14ch] text-3xl font-bold tracking-tight text-[#0D1F3C] sm:text-4xl lg:text-[2.9rem] lg:leading-[1.08]">
+            <h2 className="mt-4 max-w-[22ch] text-3xl font-bold tracking-tight text-[#0D1F3C] sm:text-4xl lg:text-[2.9rem] lg:leading-[1.08]">
               Uma empresa feita para estar próxima da realidade cirúrgica.
             </h2>
             <div className="mt-6 space-y-5 text-base leading-8 text-[#0D1F3C]/62">

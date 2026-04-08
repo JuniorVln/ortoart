@@ -138,7 +138,7 @@ export default function ContactPageSections() {
             <span className="hero-fade-up inline-flex items-center rounded-full border border-white/10 bg-white/[0.06] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-[#87CEEB] backdrop-blur-sm">
               Contato e atendimento
             </span>
-            <h1 className="hero-fade-up mt-7 max-w-[12ch] text-[clamp(2.5rem,5vw,4.75rem)] font-bold leading-[1.02] tracking-[-0.04em] text-white">
+            <h1 className="hero-fade-up mt-7 max-w-[24ch] text-[clamp(2rem,4vw,3.5rem)] font-bold leading-[1.1] tracking-[-0.028em] text-white">
               Estamos prontos para atender você.
             </h1>
             <p className="hero-fade-up mt-6 max-w-[58ch] text-base leading-8 text-white/60 sm:text-lg">
