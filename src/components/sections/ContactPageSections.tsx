@@ -48,9 +48,9 @@ type ContactFormValues = z.infer<typeof contactFormSchema>;
 
 type SubmissionState =
   | {
-      mailtoHref: string;
-      contactName: string;
-    }
+    mailtoHref: string;
+    contactName: string;
+  }
   | null;
 
 function buildMailtoHref(values: ContactFormValues) {
@@ -191,16 +191,16 @@ export default function ContactPageSections() {
       </section>
 
       <section className="bg-[#f4f7fb] py-24 sm:py-28">
-        <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-[minmax(0,1.15fr)_minmax(320px,0.85fr)] lg:items-start lg:px-8">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-2 lg:items-start lg:px-8">
           <div
             data-reveal
-            className="oa-reveal rounded-[2rem] border border-[#0D1F3C]/10 bg-white p-6 shadow-[0_24px_64px_rgba(13,31,60,0.08)] sm:p-8"
+            className="oa-reveal flex h-full flex-col rounded-[2rem] border border-[#0D1F3C]/10 bg-white p-10 shadow-[0_24px_64px_rgba(13,31,60,0.08)] sm:p-12"
           >
-            <div className="flex flex-col gap-3 border-b border-[#0D1F3C]/8 pb-6">
+            <div className="flex flex-col gap-4 border-b border-[#0D1F3C]/8 pb-8">
               <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#4B8AB0]">
                 Formulário de contato
               </span>
-              <h2 className="text-3xl font-bold tracking-tight text-[#0D1F3C]">
+              <h2 className="text-2xl font-bold tracking-tight text-[#0D1F3C] sm:text-[1.85rem] sm:leading-[1.2]">
                 Conte o que você precisa e nós direcionamos o atendimento.
               </h2>
               <p className="text-sm leading-7 text-[#0D1F3C]/56">
@@ -211,7 +211,7 @@ export default function ContactPageSections() {
             </div>
 
             {submission ? (
-              <div className="mt-6 rounded-[1.5rem] border border-[#87CEEB]/40 bg-[#eef8fc] p-5 text-[#0D1F3C]">
+              <div className="mt-8 rounded-[1.5rem] border border-[#87CEEB]/40 bg-[#eef8fc] p-5 text-[#0D1F3C]">
                 <div className="flex items-start gap-3">
                   <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0D1F3C]">
                     <ShieldCheck className="size-4 text-[#87CEEB]" />
@@ -240,7 +240,7 @@ export default function ContactPageSections() {
             <form
               onSubmit={handleSubmit(onSubmit)}
               noValidate
-              className="mt-8 space-y-6"
+              className="mt-10 flex flex-1 flex-col"
             >
               <input
                 type="text"
@@ -250,7 +250,7 @@ export default function ContactPageSections() {
                 {...register("companyWebsite")}
               />
 
-              <div className="grid gap-5 sm:grid-cols-2">
+              <div className="grid gap-8 sm:grid-cols-2">
                 <label className="block">
                   <span className="text-sm font-semibold text-[#0D1F3C]">
                     Nome completo
@@ -258,7 +258,7 @@ export default function ContactPageSections() {
                   <input
                     type="text"
                     {...register("fullName")}
-                    className="mt-2 w-full rounded-2xl border border-[#0D1F3C]/10 bg-[#f8fafc] px-4 py-3 text-sm text-[#0D1F3C] outline-none transition-colors focus:border-[#4B8AB0]"
+                    className="mt-3 w-full rounded-2xl border border-[#0D1F3C]/10 bg-[#f8fafc] px-4 py-3.5 text-sm text-[#0D1F3C] outline-none transition-colors placeholder:text-[#0D1F3C]/32 focus:border-[#4B8AB0]"
                     placeholder="Seu nome"
                   />
                   {errors.fullName ? (
@@ -275,7 +275,7 @@ export default function ContactPageSections() {
                   <input
                     type="email"
                     {...register("email")}
-                    className="mt-2 w-full rounded-2xl border border-[#0D1F3C]/10 bg-[#f8fafc] px-4 py-3 text-sm text-[#0D1F3C] outline-none transition-colors focus:border-[#4B8AB0]"
+                    className="mt-3 w-full rounded-2xl border border-[#0D1F3C]/10 bg-[#f8fafc] px-4 py-3.5 text-sm text-[#0D1F3C] outline-none transition-colors placeholder:text-[#0D1F3C]/32 focus:border-[#4B8AB0]"
                     placeholder="voce@empresa.com"
                   />
                   {errors.email ? (
@@ -286,14 +286,14 @@ export default function ContactPageSections() {
                 </label>
               </div>
 
-              <label className="block">
+              <label className="mt-8 block">
                 <span className="text-sm font-semibold text-[#0D1F3C]">
                   Telefone / WhatsApp
                 </span>
                 <input
                   type="tel"
                   {...register("phone")}
-                  className="mt-2 w-full rounded-2xl border border-[#0D1F3C]/10 bg-[#f8fafc] px-4 py-3 text-sm text-[#0D1F3C] outline-none transition-colors focus:border-[#4B8AB0]"
+                  className="mt-3 w-full rounded-2xl border border-[#0D1F3C]/10 bg-[#f8fafc] px-4 py-3.5 text-sm text-[#0D1F3C] outline-none transition-colors placeholder:text-[#0D1F3C]/32 focus:border-[#4B8AB0]"
                   placeholder="(41) 99999-9999"
                 />
                 {errors.phone ? (
@@ -303,7 +303,7 @@ export default function ContactPageSections() {
                 ) : null}
               </label>
 
-              <fieldset>
+              <fieldset className="mt-8">
                 <legend className="text-sm font-semibold text-[#0D1F3C]">
                   Área de interesse
                 </legend>
@@ -311,7 +311,7 @@ export default function ContactPageSections() {
                   {areaOptions.map((option) => (
                     <label
                       key={option.value}
-                      className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-[#0D1F3C]/10 bg-[#f8fafc] px-4 py-2 text-sm font-medium text-[#0D1F3C]/72 transition-colors hover:border-[#4B8AB0]/40"
+                      className="inline-flex cursor-pointer items-center gap-2.5 rounded-full border border-[#0D1F3C]/10 bg-[#f8fafc] px-4 py-2.5 text-sm font-medium text-[#0D1F3C]/72 transition-colors hover:border-[#4B8AB0]/40"
                     >
                       <input
                         type="checkbox"
@@ -330,14 +330,14 @@ export default function ContactPageSections() {
                 ) : null}
               </fieldset>
 
-              <label className="block">
+              <label className="mt-8 block flex-1">
                 <span className="text-sm font-semibold text-[#0D1F3C]">
                   Mensagem
                 </span>
                 <textarea
-                  rows={6}
+                  rows={5}
                   {...register("message")}
-                  className="mt-2 w-full rounded-[1.5rem] border border-[#0D1F3C]/10 bg-[#f8fafc] px-4 py-3 text-sm leading-7 text-[#0D1F3C] outline-none transition-colors focus:border-[#4B8AB0]"
+                  className="mt-2.5 w-full resize-none rounded-[1.5rem] border border-[#0D1F3C]/10 bg-[#f8fafc] px-4 py-3.5 text-sm leading-7 text-[#0D1F3C] outline-none transition-colors placeholder:text-[#0D1F3C]/32 focus:border-[#4B8AB0]"
                   placeholder="Descreva o procedimento, a necessidade de material ou a dúvida que sua equipe quer resolver."
                 />
                 {errors.message ? (
@@ -347,8 +347,8 @@ export default function ContactPageSections() {
                 ) : null}
               </label>
 
-              <div className="flex flex-col gap-3 border-t border-[#0D1F3C]/8 pt-6 sm:flex-row sm:items-center sm:justify-between">
-                <p className="max-w-[44ch] text-xs leading-6 text-[#0D1F3C]/48">
+              <div className="mt-8 flex items-center justify-between gap-6 border-t border-[#0D1F3C]/8 pt-8">
+                <p className="text-xs leading-6 text-[#0D1F3C]/48">
                   Ao enviar, o site abre seu aplicativo de e-mail com o conteúdo
                   do formulário preenchido. Isso evita perder leads enquanto o
                   canal de CRM ainda não foi configurado.
@@ -356,7 +356,7 @@ export default function ContactPageSections() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-[#0D1F3C] px-7 py-3.5 text-sm font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#1a3a6e] disabled:cursor-not-allowed disabled:opacity-60"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-[#0D1F3C] px-8 py-3.5 text-sm font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#1a3a6e] disabled:cursor-not-allowed disabled:opacity-60 sm:shrink-0"
                 >
                   <Send className="size-4" />
                   {isSubmitting ? "Preparando..." : "Enviar mensagem"}
@@ -365,7 +365,7 @@ export default function ContactPageSections() {
             </form>
           </div>
 
-          <div className="space-y-6">
+          <div className="flex flex-col gap-6">
             <div
               data-reveal
               className="oa-reveal rounded-[2rem] bg-[#0D1F3C] p-6 text-white shadow-[0_24px_64px_rgba(13,31,60,0.14)] sm:p-8"
@@ -497,19 +497,21 @@ export default function ContactPageSections() {
                 </a>
               </div>
             </div>
+          </div>
 
-            <div
-              data-reveal
-              className="oa-reveal overflow-hidden rounded-[2rem] bg-[#25D366] p-6 text-[#072a16] shadow-[0_20px_50px_rgba(37,211,102,0.18)]"
-              style={{ transitionDelay: "180ms" }}
-            >
+          <div
+            data-reveal
+            className="oa-reveal lg:col-span-2 overflow-hidden rounded-[2rem] bg-[#25D366] px-6 py-12 text-center text-[#072a16] shadow-[0_20px_50px_rgba(37,211,102,0.18)] sm:px-12 sm:py-16"
+            style={{ transitionDelay: "180ms" }}
+          >
+            <div className="mx-auto flex max-w-3xl flex-col items-center gap-5">
               <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#072a16]/68">
                 WhatsApp em destaque
               </span>
-              <h3 className="mt-3 text-2xl font-bold tracking-tight">
+              <h3 className="text-2xl font-bold tracking-tight sm:text-3xl">
                 Precisa agilizar o contato?
               </h3>
-              <p className="mt-3 max-w-[34ch] text-sm leading-7 text-[#072a16]/76">
+              <p className="max-w-md text-sm leading-7 text-[#072a16]/76">
                 Abra a conversa com uma mensagem já pronta e fale com a equipe
                 da OrtoArt por um canal mais direto.
               </p>
@@ -517,7 +519,7 @@ export default function ContactPageSections() {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-[#0D1F3C] transition-all duration-200 hover:-translate-y-0.5"
+                className="mt-1 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-[#0D1F3C] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
               >
                 Chamar no WhatsApp
                 <ArrowUpRight className="size-4" />

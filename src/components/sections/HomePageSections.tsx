@@ -122,7 +122,7 @@ export default function HomePageSections() {
                 className="hero-fade-up inline-flex items-center rounded-full border border-white/10 bg-white/[0.06] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-[#87CEEB] backdrop-blur-sm"
                 style={{ animationDelay: "0ms" }}
               >
-                Curitiba&nbsp;·&nbsp;Coluna&nbsp;·&nbsp;Medicina Esportiva
+                Coluna&nbsp;·&nbsp;Medicina Esportiva
               </span>
 
               {/* Headline */}
