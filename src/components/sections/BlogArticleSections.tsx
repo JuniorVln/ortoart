@@ -77,25 +77,33 @@ export default function BlogArticleSections({
       <section className="bg-white py-20 sm:py-24">
         <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-16 lg:px-8">
           <div className="max-w-3xl">
-            <div className="space-y-8">
-              {post.blocks.map((block, index) =>
-                block.type === "heading" ? (
-                  <h2
-                    key={`${block.text}-${index}`}
-                    className="text-2xl font-bold tracking-tight text-[#0D1F3C] sm:text-[2rem]"
-                  >
-                    {block.text}
-                  </h2>
-                ) : (
-                  <p
-                    key={`${block.text.slice(0, 48)}-${index}`}
-                    className="text-base leading-8 text-[#0D1F3C]/70"
-                  >
-                    {block.text}
-                  </p>
-                )
-              )}
-            </div>
+            {/* Renderização de conteúdo HTML (TipTap) ou blocks legado */}
+            {"contentHtml" in post && post.contentHtml ? (
+              <div
+                className="prose prose-lg max-w-none prose-headings:font-bold prose-headings:text-[#0D1F3C] prose-h2:text-2xl prose-h3:text-xl prose-p:leading-8 prose-p:text-[#0D1F3C]/70 prose-img:rounded-2xl prose-a:text-[#4B8AB0] prose-a:no-underline hover:prose-a:underline"
+                dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+              />
+            ) : (
+              <div className="space-y-8">
+                {post.blocks.map((block, index) =>
+                  block.type === "heading" ? (
+                    <h2
+                      key={`${block.text}-${index}`}
+                      className="text-2xl font-bold tracking-tight text-[#0D1F3C] sm:text-[2rem]"
+                    >
+                      {block.text}
+                    </h2>
+                  ) : (
+                    <p
+                      key={`${block.text.slice(0, 48)}-${index}`}
+                      className="text-base leading-8 text-[#0D1F3C]/70"
+                    >
+                      {block.text}
+                    </p>
+                  )
+                )}
+              </div>
+            )}
 
             <div className="mt-16 overflow-hidden rounded-[2rem] bg-[#0D1F3C] px-8 py-10 text-white shadow-[0_28px_70px_rgba(13,31,60,0.16)]">
               <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#87CEEB]">
