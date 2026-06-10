@@ -20,7 +20,7 @@ const sftp = new SftpClient();
 const config = {
   host: process.env.FTP_HOST,
   port: 2221,
-  username: process.env.FTP_USER,
+  username: "ortoart",
   password: process.env.FTP_PASS,
   readyTimeout: 30000,
 };
