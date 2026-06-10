@@ -1,6 +1,12 @@
 #!/bin/bash
 set -e
 
+# Install lftp if not available (Netlify build environment may not have it)
+if ! command -v lftp &> /dev/null; then
+  echo "Instalando lftp..."
+  apt-get update -qq && apt-get install -y -q lftp
+fi
+
 echo "Iniciando deploy via SFTP..."
 
 lftp \
