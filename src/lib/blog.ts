@@ -1,9 +1,11 @@
 import "server-only";
 
-import { cache } from "react";
-import { getDb } from "@/db";
-import { blogPosts } from "@/db/schema";
-import { eq, desc, and } from "drizzle-orm";
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import { marked } from "marked";
+
+const POSTS_DIR = path.join(process.cwd(), "src/content/posts");
 
 export type BlogCategory = "Coluna" | "Medicina Esportiva" | "Ortopedia";
 
@@ -36,11 +38,22 @@ export const blogFilterOptions = [
 
 export type BlogFilter = (typeof blogFilterOptions)[number];
 
+type RawPost = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  data: Record<string, any>;
+  content: string;
+  published: boolean;
+};
+
+const months = [
+  "janeiro", "fevereiro", "março", "abril", "maio", "junho",
+  "julho", "agosto", "setembro", "outubro", "novembro", "dezembro",
+];
+
 function htmlToBlocks(html: string): BlogPostBlock[] {
   const blocks: BlogPostBlock[] = [];
   if (!html) return blocks;
 
-  // Simple regex-based HTML parsing for headings and paragraphs
   const parts = html.split(/(<\/?(?:h[1-6]|p)[^>]*>)/gi);
   let currentTag = "";
   let currentText = "";
@@ -65,7 +78,6 @@ function htmlToBlocks(html: string): BlogPostBlock[] {
           .replace(/&lt;/g, "<")
           .replace(/&gt;/g, ">")
           .trim();
-
         if (cleanText) {
           blocks.push({ type: currentTag as "heading" | "paragraph", text: cleanText });
         }
@@ -78,7 +90,6 @@ function htmlToBlocks(html: string): BlogPostBlock[] {
     currentText += part;
   }
 
-  // Flush remaining
   if (currentText.trim()) {
     const cleanText = currentText
       .replace(/<[^>]+>/g, "")
@@ -92,100 +103,72 @@ function htmlToBlocks(html: string): BlogPostBlock[] {
   return blocks;
 }
 
-function mapDbPostToBlogPost(post: typeof blogPosts.$inferSelect): BlogPost {
-  const dateObj = new Date(post.createdAt);
-  const months = [
-    "janeiro", "fevereiro", "março", "abril", "maio", "junho",
-    "julho", "agosto", "setembro", "outubro", "novembro", "dezembro",
-  ];
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function mapRawPostToBlogPost(data: Record<string, any>, contentHtml: string): BlogPost {
+  const dateObj = data.date ? new Date(data.date) : new Date();
   const dateLabel = `${dateObj.getDate()} de ${months[dateObj.getMonth()]} de ${dateObj.getFullYear()}`;
 
-  const blocks = htmlToBlocks(post.contentHtml);
-  const firstParagraph = blocks.find((b) => b.type === "paragraph")?.text ?? post.summary;
+  const blocks = htmlToBlocks(contentHtml);
+  const firstParagraph = blocks.find((b) => b.type === "paragraph")?.text ?? (data.summary as string) ?? "";
   const excerpt = firstParagraph.length > 180
     ? firstParagraph.slice(0, 177) + "…"
     : firstParagraph;
-  const wordCount = blocks.reduce((count, block) => count + block.text.split(/\s+/).filter(Boolean).length, 0);
+  const wordCount = blocks.reduce(
+    (count, block) => count + block.text.split(/\s+/).filter(Boolean).length,
+    0
+  );
 
   return {
-    slug: post.slug,
-    title: post.title,
-    category: post.category as BlogCategory,
-    coverImage: post.coverImage ?? "/blog/default.jpg",
-    coverAlt: post.coverAlt ?? post.title,
-    summary: post.summary,
+    slug: (data.slug as string) ?? "",
+    title: (data.title as string) ?? "",
+    category: (data.category as BlogCategory) ?? "Ortopedia",
+    coverImage: (data.coverImage as string) ?? "/blog/default.jpg",
+    coverAlt: (data.coverAlt as string) ?? (data.title as string) ?? "",
+    summary: (data.summary as string) ?? "",
     excerpt,
     dateLabel,
-    dateISO: post.createdAt.toISOString(),
+    dateISO: dateObj.toISOString(),
     readingTime: Math.max(1, Math.ceil(wordCount / 220)),
     blocks,
-    contentHtml: post.contentHtml,
+    contentHtml,
   };
 }
 
-export const getAllBlogPosts = cache((): BlogPost[] => {
-  const db = getDb();
-  const posts = db
-    .select()
-    .from(blogPosts)
-    .where(eq(blogPosts.published, true))
-    .orderBy(desc(blogPosts.createdAt))
-    .all();
+function readRawPosts(): RawPost[] {
+  if (!fs.existsSync(POSTS_DIR)) return [];
+  const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md"));
 
-  return posts.map(mapDbPostToBlogPost);
-});
+  return files.map((filename) => {
+    const raw = fs.readFileSync(path.join(POSTS_DIR, filename), "utf-8");
+    const { data, content } = matter(raw);
+    return {
+      data,
+      content,
+      published: data.published !== false,
+    };
+  });
+}
 
-export const getAllBlogPostsAdmin = cache((): BlogPost[] => {
-  const db = getDb();
-  const posts = db
-    .select()
-    .from(blogPosts)
-    .orderBy(desc(blogPosts.createdAt))
-    .all();
+export function getAllBlogPosts(): BlogPost[] {
+  return readRawPosts()
+    .filter((p) => p.published)
+    .map((p) => mapRawPostToBlogPost(p.data, marked(p.content) as string))
+    .sort((a, b) => new Date(b.dateISO).getTime() - new Date(a.dateISO).getTime());
+}
 
-  return posts.map(mapDbPostToBlogPost);
-});
-
-export const getBlogPostBySlug = cache((slug: string): BlogPost | undefined => {
-  const db = getDb();
-  const post = db
-    .select()
-    .from(blogPosts)
-    .where(eq(blogPosts.slug, slug))
-    .limit(1)
-    .get();
-
-  if (!post || !post.published) return undefined;
-  return mapDbPostToBlogPost(post);
-});
-
-export const getBlogPostBySlugAdmin = cache((slug: string): BlogPost | undefined => {
-  const db = getDb();
-  const post = db
-    .select()
-    .from(blogPosts)
-    .where(eq(blogPosts.slug, slug))
-    .limit(1)
-    .get();
-
+export function getBlogPostBySlug(slug: string): BlogPost | undefined {
+  const post = readRawPosts().find(
+    (p) => p.published && (p.data.slug as string) === slug
+  );
   if (!post) return undefined;
-  return mapDbPostToBlogPost(post);
-});
+  return mapRawPostToBlogPost(post.data, marked(post.content) as string);
+}
 
-export const getRelatedBlogPosts = cache((slug: string, limit = 3): BlogPost[] => {
+export function getRelatedBlogPosts(slug: string, limit = 3): BlogPost[] {
   const currentPost = getBlogPostBySlug(slug);
   if (!currentPost) return [];
 
-  const db = getDb();
-  const posts = db
-    .select()
-    .from(blogPosts)
-    .where(and(eq(blogPosts.published, true), eq(blogPosts.category, currentPost.category)))
-    .orderBy(desc(blogPosts.createdAt))
-    .all();
-
-  return posts
-    .filter((p) => p.slug !== slug)
-    .slice(0, limit)
-    .map(mapDbPostToBlogPost);
-});
+  return getAllBlogPosts()
+    .filter((p) => p.slug !== slug && p.category === currentPost.category)
+    .slice(0, limit);
+}

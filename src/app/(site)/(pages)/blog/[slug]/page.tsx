@@ -7,19 +7,11 @@ import {
   getRelatedBlogPosts,
 } from "@/lib/blog";
 
-export const dynamic = "force-dynamic";
-
-// During build, if no posts exist in DB, fallback to empty array
-// Posts will be generated on-demand during runtime
-export async function generateStaticParams() {
-  try {
-    const { getAllBlogPosts } = await import("@/lib/blog");
-    return getAllBlogPosts().map((post) => ({
-      slug: post.slug,
-    }));
-  } catch {
-    return [];
-  }
+export function generateStaticParams() {
+  const posts = getAllBlogPosts();
+  // output: export requires at least one param; the page handles notFound() for missing slugs
+  if (posts.length === 0) return [{ slug: "__empty" }];
+  return posts.map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata(

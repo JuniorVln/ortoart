@@ -1,0 +1,47 @@
+# Decap CMS — OrtoArt
+# Autenticação via Netlify Identity + Git Gateway
+# O site NÃO precisa ser hospedado no Netlify; usa apenas o serviço de identidade deles.
+
+backend:
+  name: git-gateway
+  branch: master
+
+# Idioma da interface
+locale: pt
+
+# Pasta onde os arquivos de mídia (imagens) são salvos no repositório
+media_folder: public/uploads
+
+# Caminho público das imagens (como o Next.js serve a pasta public/)
+public_folder: /uploads
+
+collections:
+  - name: posts
+    label: Posts do Blog
+    label_singular: Post
+    folder: src/content/posts
+    create: true
+    # O nome do arquivo será o slug do post
+    slug: "{{fields.slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Título, name: title, widget: string }
+      - { label: "Slug (URL do post)", name: slug, widget: string,
+          hint: "Somente letras minúsculas, números e hífens. Ex: artigo-sobre-coluna" }
+      - label: Categoria
+        name: category
+        widget: select
+        options:
+          - { label: Coluna, value: Coluna }
+          - { label: Medicina Esportiva, value: "Medicina Esportiva" }
+          - { label: Ortopedia, value: Ortopedia }
+      - { label: Imagem de Capa, name: coverImage, widget: image }
+      - { label: "Texto alternativo da imagem (SEO)", name: coverAlt, widget: string }
+      - { label: Resumo, name: summary, widget: text,
+          hint: "Breve descrição exibida na listagem e nas redes sociais (aprox. 160 caracteres)." }
+      - { label: Publicado, name: published, widget: boolean, default: false,
+          hint: "Marque para publicar. Posts não publicados não aparecem no site." }
+      - { label: Data de Publicação, name: date, widget: datetime,
+          date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Conteúdo, name: body, widget: markdown }
