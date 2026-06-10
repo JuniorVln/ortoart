@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build && bash scripts/sftp-deploy.sh"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
