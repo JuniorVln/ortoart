@@ -1,6 +1,7 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import CookieConsentBanner from "@/components/ui/CookieConsentBanner";
 
 export default function SiteLayout({
   children,
@@ -13,6 +14,7 @@ export default function SiteLayout({
       <main className="flex-1">{children}</main>
       <Footer />
       <WhatsAppButton />
+      <CookieConsentBanner />
     </div>
   );
 }

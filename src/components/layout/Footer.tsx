@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
 import SiteLogo from "@/components/ui/SiteLogo";
+import CookiePreferencesTrigger from "@/components/ui/CookiePreferencesTrigger";
 
 function InstagramIcon({ size = 16 }: { size?: number }) {
   return (
@@ -21,9 +22,9 @@ const links = [
 ];
 
 const legal = [
-  { href: "/politica-de-privacidade", label: "Política de Privacidade" },
-  { href: "/termos-de-uso", label: "Termos de Uso" },
-  { href: "/politica-de-cookies", label: "Política de Cookies" },
+  { href: "/politica-de-privacidade/", label: "Política de Privacidade" },
+  { href: "/termos-de-uso/", label: "Termos de Uso" },
+  { href: "/politica-de-cookies/", label: "Política de Cookies" },
 ];
 
 export default function Footer() {
@@ -97,12 +98,14 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-white/40">
           <p>© {new Date().getFullYear()} OrtoArt Materiais Cirúrgicos Ltda. — CNPJ: 09.530.330/0001-63</p>
-          <nav className="flex gap-4 flex-wrap justify-center">
+          <nav className="flex gap-4 flex-wrap justify-center items-center">
             {legal.map((l) => (
               <Link key={l.href} href={l.href} className="hover:text-white transition-colors">
                 {l.label}
               </Link>
             ))}
+            <span className="text-white/20" aria-hidden="true">|</span>
+            <CookiePreferencesTrigger />
           </nav>
         </div>
       </div>
