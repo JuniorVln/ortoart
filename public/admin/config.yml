@@ -6,22 +6,19 @@ backend:
   name: git-gateway
   branch: master
 
-# Idioma da interface
 locale: pt
 
-# Pasta onde os arquivos de mídia (imagens) são salvos no repositório
 media_folder: public/uploads
-
-# Caminho público das imagens (como o Next.js serve a pasta public/)
 public_folder: /uploads
 
 collections:
+
+  # ─── BLOG POSTS ────────────────────────────────────────────────────────────
   - name: posts
     label: Posts do Blog
     label_singular: Post
     folder: src/content/posts
     create: true
-    # O nome do arquivo será o slug do post
     slug: "{{fields.slug}}"
     extension: md
     format: frontmatter
@@ -45,3 +42,155 @@ collections:
       - { label: Data de Publicação, name: date, widget: datetime,
           date_format: "YYYY-MM-DD", time_format: false }
       - { label: Conteúdo, name: body, widget: markdown }
+
+  # ─── PÁGINAS DO SITE ────────────────────────────────────────────────────────
+  - name: pages
+    label: Páginas do Site
+    files:
+
+      - name: home
+        label: Home
+        file: src/content/pages/home.yml
+        fields:
+          - label: Hero Principal
+            name: hero
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+              - { label: Imagem, name: image, widget: image, required: false }
+          - label: Proposta de Valor
+            name: value_props
+            widget: object
+            fields:
+              - { label: Conteúdo, name: content, widget: markdown }
+          - label: Áreas de Atuação
+            name: areas
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+          - label: Teaser Sobre
+            name: about_teaser
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+              - { label: Imagem, name: image, widget: image, required: false }
+          - label: CTA Final
+            name: cta_final
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+
+      - name: quem-somos
+        label: Quem Somos
+        file: src/content/pages/quem-somos.yml
+        fields:
+          - label: Headline
+            name: headline
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+          - label: "História (CEO)"
+            name: history
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+              - { label: Imagem, name: image, widget: image, required: false }
+          - label: "Missão, Visão e Valores"
+            name: mission
+            widget: object
+            fields:
+              - { label: Conteúdo, name: content, widget: markdown }
+          - label: Nosso Time
+            name: team
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+              - { label: Imagem, name: image, widget: image, required: false }
+
+      - name: coluna
+        label: Coluna
+        file: src/content/pages/coluna.yml
+        fields:
+          - label: Hero da Área
+            name: hero
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+              - { label: Imagem, name: image, widget: image, required: false }
+          - label: Introdução
+            name: intro
+            widget: object
+            fields:
+              - { label: Conteúdo, name: content, widget: markdown }
+          - label: Produtos e Soluções
+            name: products
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+          - label: "Diferencial (Instrumentadores)"
+            name: differential
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+
+      - name: medicina-esportiva
+        label: Medicina Esportiva
+        file: src/content/pages/medicina-esportiva.yml
+        fields:
+          - label: Hero da Área
+            name: hero
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+              - { label: Imagem, name: image, widget: image, required: false }
+          - label: Introdução
+            name: intro
+            widget: object
+            fields:
+              - { label: Conteúdo, name: content, widget: markdown }
+          - label: Produtos e Soluções
+            name: products
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Conteúdo, name: content, widget: markdown }
+
+      - name: parceiros
+        label: Parceiros
+        file: src/content/pages/parceiros.yml
+        fields:
+          - label: Headline
+            name: headline
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+          - label: Texto de Posicionamento
+            name: positioning
+            widget: object
+            fields:
+              - { label: Conteúdo, name: content, widget: markdown }
+
+      - name: contato
+        label: Contato
+        file: src/content/pages/contato.yml
+        fields:
+          - label: Headline
+            name: headline
+            widget: object
+            fields:
+              - { label: Título, name: title, widget: string }
+          - label: Informações de Contato
+            name: info
+            widget: object
+            fields:
+              - { label: Conteúdo, name: content, widget: markdown }
