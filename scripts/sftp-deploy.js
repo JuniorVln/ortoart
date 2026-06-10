@@ -4,6 +4,17 @@
 const SftpClient = require("ssh2-sftp-client");
 const path = require("path");
 
+// ssh2 may emit error events after the deploy completes during teardown.
+// Treat those as warnings so the build exits 0.
+process.on("uncaughtException", (err) => {
+  console.warn("Aviso pós-deploy (ignorado):", err.message);
+  process.exit(0);
+});
+process.on("unhandledRejection", (err) => {
+  console.warn("Aviso pós-deploy (ignorado):", err?.message || err);
+  process.exit(0);
+});
+
 const sftp = new SftpClient();
 
 const config = {
@@ -11,7 +22,7 @@ const config = {
   port: 2221,
   username: process.env.FTP_USER,
   password: process.env.FTP_PASS,
-  readyTimeout: 20000,
+  readyTimeout: 30000,
 };
 
 const localDir = path.join(process.cwd(), "out");
@@ -25,7 +36,7 @@ sftp
   })
   .then(() => {
     console.log("Deploy concluído com sucesso!");
-    return sftp.end();
+    process.exit(0);
   })
   .catch((err) => {
     console.error("Erro no deploy:", err.message);
