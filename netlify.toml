@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build && bash scripts/sftp-deploy.sh"
+  command = "npm run build && node scripts/sftp-deploy.js"
   publish = "out"
 
 [build.environment]
