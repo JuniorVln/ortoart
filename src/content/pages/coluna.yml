@@ -1,12 +1,36 @@
 hero:
-  title: ""
-  content: ""
+  title: "Soluções completas para cirurgia de coluna."
+  content: |
+    A OrtoArt organiza portfólio, suporte técnico e operação próxima para responder com mais precisão a procedimentos de coluna vertebral em Curitiba e região.
   image: ""
 intro:
-  content: ""
+  content: |
+    Com mais de 15 anos de atuação ao lado de cirurgiões e hospitais, a OrtoArt estrutura um portfólio especializado em coluna vertebral com representação exclusiva de fabricantes líderes, instrumentadores qualificados e operação própria em Curitiba.
+
+    A média de 30 cirurgias por dia na região reflete a confiança construída com médicos, hospitais e operadoras que precisam de um parceiro técnico presente e ágil.
 products:
-  title: ""
-  content: ""
+  title: "Portfólio de produtos e soluções"
+  content: |
+    ## Fixação Posterior Toracolombar
+    Soluções para estabilização posterior com foco em segurança do constructo, organização do instrumental e previsibilidade em sala.
+
+    ## TLIF e suporte intersomático
+    Sistemas para procedimentos transforaminais e posteriores, com opções que combinam estabilidade, enxertia e posicionamento eficiente.
+
+    ## ALIF e procedimentos da coluna anterior
+    Soluções voltadas a reconstrução anterior, restauração de altura e suporte estrutural em diferentes estratégias de acesso.
+
+    ## Corpectomia e substituição vertebral
+    Alternativas para reconstrução do corpo vertebral com foco em versatilidade intraoperatória e adaptação anatômica.
+
+    ## ACDF / PCF e soluções cervicais
+    Sistemas para fusão cervical anterior e abordagens posteriores, com foco em estabilidade, segurança neurológica e perfil baixo do implante.
+
+    ## Sistema X360 (posição única)
+    Solução de posição única para acesso combinado anterior/posterior, otimizando tempo de cirurgia e logística de sala.
 differential:
-  title: ""
-  content: ""
+  title: "Suporte técnico em cada procedimento"
+  content: |
+    Nossos instrumentadores altamente qualificados acompanham cada procedimento cirúrgico, reduzindo atrito operacional e dando mais fluidez ao centro cirúrgico.
+
+    Além do produto, entregamos disponibilidade, organização de material e presença em sala para tornar o procedimento mais seguro e previsível.

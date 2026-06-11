@@ -1,16 +1,40 @@
 hero:
-  title: ""
-  content: ""
+  title: "Tecnologia e cuidado onde o cirurgião mais precisa."
+  content: |
+    Materiais cirúrgicos de alta precisão para coluna e medicina esportiva. Suporte técnico, instrumentadores qualificados e operação própria — tudo em um só parceiro.
   image: ""
 value_props:
-  content: ""
+  content: |
+    ## Tecnologia de Ponta
+    Portfólios cirúrgicos de alta performance com foco em segurança, inovação e confiabilidade clínica.
+
+    ## Precisão Cirúrgica
+    Instrumentadores qualificados acompanham cada procedimento para dar fluidez ao centro cirúrgico.
+
+    ## Relação Próxima
+    Atendimento consultivo, agendamento próprio e suporte contínuo para médicos, hospitais e operadoras.
 areas:
-  title: ""
-  content: ""
+  title: "Nossas áreas de atuação"
+  content: |
+    ## Coluna
+    Soluções completas para cirurgia de coluna, com portfólio especializado, representação exclusiva Orthofix e suporte técnico em sala.
+
+    - Fixação posterior toracolombar
+    - TLIF e corpectomia
+    - Coluna cervical
+
+    ## Medicina Esportiva
+    Produtos e suporte para joelho, ombro e tornozelo, com foco em retorno seguro, performance e precisão cirúrgica.
+
+    - Joelho, ombro e tornozelo
+    - Atletas e pacientes ativos
+    - Suporte especializado em sala
 about_teaser:
-  title: ""
-  content: ""
+  title: "Mais de quinze anos conectando tecnologia, cirurgia e cuidado humano."
+  content: |
+    A OrtoArt nasceu em Curitiba e construiu sua reputação com operação próxima, portfólio de alta tecnologia e uma equipe preparada para apoiar médicos, hospitais e pacientes em cada etapa do procedimento cirúrgico.
   image: ""
 cta_final:
-  title: ""
-  content: ""
+  title: "Vamos conversar sobre o que a OrtoArt pode fazer pelo seu próximo procedimento?"
+  content: |
+    Fale com nossa equipe, entenda o portfólio e transforme a necessidade cirúrgica em uma conversa objetiva.

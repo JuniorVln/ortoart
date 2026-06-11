@@ -22,6 +22,8 @@ collections:
     slug: "{{fields.slug}}"
     extension: md
     format: frontmatter
+    editor:
+      preview: false
     fields:
       - { label: Título, name: title, widget: string }
       - { label: "Slug (URL do post)", name: slug, widget: string,
@@ -46,6 +48,8 @@ collections:
   # ─── PÁGINAS DO SITE ────────────────────────────────────────────────────────
   - name: pages
     label: Páginas do Site
+    editor:
+      preview: false
     files:
 
       - name: home
